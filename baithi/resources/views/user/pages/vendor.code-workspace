@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "vendor",
+			"path": "../../../../../../../Project/vendor"
+		},
+		{
+			"name": "routes",
+			"path": "../../../../../../../Project/routes"
+		},
+		{
+			"name": "aptech-k1",
+			"path": "../../../../.."
+		},
+		{
+			"name": "storage",
+			"path": "../../../../../../../Project/storage"
+		},
+		{
+			"name": "tests",
+			"path": "../../../../../../../Project/tests"
+		},
+		{
+			"name": "resources",
+			"path": "../../../../../../../Project/resources"
+		}
+	],
+	"settings": {}
+}

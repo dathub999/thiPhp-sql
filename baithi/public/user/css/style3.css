@@ -1,0 +1,153 @@
+/* Kiểu Font chữ */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("../img/backgroundlogin.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 90vh;
+}
+form{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 90vh;
+    position: relative;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 45px;
+    background: rgba(225, 225, 225, 0.5);
+}
+/* Chỉnh màu placeholder */
+::-webkit-input-placeholder{
+    color: #fff;
+}
+/* Chỉnh bố cục và màu icon */
+i{
+    color: #fff;
+    position: relative;
+    top: -32px;
+    left: 17px;
+    pointer-events: none;
+}
+/* Thay đổi style submit button */
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15p;
+    height:45px;
+    outline :none;
+    width:100%;
+    background: rgba(225, 225, 225, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Thay đổi submit khi hover chuột vào */
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgb(0, 0, 0,0.2);
+}
+/* Căn chỉnh màu và vị trí của remember me / forgot password!  */
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size:small;
+    color: #fff;
+    margin-top: 10px;
+}
+.left{
+    display:flex;
+}
+label a{
+    color: #fff;
+}
+/* Ẩn checkbox mặc định */
+input[type="checkbox"] {
+    display: none;
+  }
+  
+/* Tạo một sự thay thế tùy chỉnh cho checkbox */
+input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+  
+/* Tạo dấu tick tùy chỉnh */
+input[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    left: 4.5px;
+    top: -1.5px;
+    width: 18px;
+    height: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0,0.2);
+}
+  
+/* Hiển thị dấu tick */
+input[type="checkbox"]:checked + label::before {
+    content: "✓";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    transition: background-color 89400s ease-in-out 0s;
+    background: rgba(225, 225, 225, 0.5);
+}
+.water-border{
+    width: 500px;
+    height: 500px;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 20px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+    transition: 0.8s;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    border-radius:58% 42% 51% 49% / 39% 55% 45% 61%  ;
+    
+}
